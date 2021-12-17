@@ -1,5 +1,9 @@
-## Welcome to GitHub Pages
+# Spinng LED Display
+This project seeks to 
 
+<iframe width="635" height="360" src="https://www.youtube.com/embed/Sob4olFqeOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<video src="https://www.youtube.com/embed/Sob4olFqeOM" controls="controls" style="max-width: 730px;"> </video>
 You can use the [editor on GitHub](https://github.com/joque10/EngineeringProjects/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
