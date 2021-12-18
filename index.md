@@ -20,7 +20,9 @@ As said earlier, because the motor could no longer spin, we had to adapt our cod
 
 ### Design and Implementation
 
+
+
 ### Bitmask Alphabet
-[This](font.h) is a link to our alphabet. In that file, is an array of bitmasks that represent various letters and symbols to be displayed by our Spinning LED array. We assign every character 6 different flashes of the array, soThe image below shows how the letter first 
+[This](font.h) is a link to our alphabet. In that file, is an array of bitmasks that represent various letters and symbols to be displayed by our Spinning LED array. We assign every character 6 different flashes of the array, so each character requires 6 different bit patterns. The image below shows how each bit pattern is represented with a hexademical number, showing how the hexademical number for the first pattern in the letter 'A' is found.
 
 ![image](https://user-images.githubusercontent.com/39937655/146619547-390835c1-8dae-44d9-abd4-b2cbf27592a9.png)
