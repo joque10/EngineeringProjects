@@ -32,4 +32,5 @@ Several Graphics showing how we implemented our design.
 
 ### Results
 As mentioned, due to our hardware issues and lack of time, we were not able to spin the motor. This device can only display message if either the viewer or their frame of reference in regards to the PCB board is moving (i.e. either the viewer or the board must be moving in the direction of the message to view the message). Below is an image of the board simply flashing, we will work on getting a video properly showing the phonenomenon of a message being displayed by having the camera move in relation to the board.
+
 ![image](https://user-images.githubusercontent.com/39937655/146622619-8db450b5-a5d0-4420-93da-f7a9379ba91d.png)
