@@ -14,11 +14,13 @@ Adapted from [Spinning LED Display](https://www.instructables.com/Spinning-LED-D
 We chose a design of a system that had an electric motor spinning the PCB. Our design called for a beam interrupter to act as position sensor so that the Microcontroller would be able to track the revolutions of the motor and would be able to flash the lights appropriately, but unfortunately due to soldering issues with the motor, we could never actually get the motor to spin. 
 ![image](https://user-images.githubusercontent.com/39937655/146619437-accb797b-7b3c-4058-ba77-35a9d456f658.png)
 
-### System Archetecture
+### System Architecture
 As said earlier, because the motor could no longer spin, we had to adapt our code to have a periodic interrupt in order to let the microcontroller know that it is time to flash the lights. Our system archetecture is as follows.
 ![image](https://user-images.githubusercontent.com/39937655/146619044-ea1ac6e5-bf1e-44a2-8b5b-f7cb756a22f6.png)
 
 ### Design and Implementation
 
 ### Bitmask Alphabet
+[This](font.h) is a link to our alphabet. In that file, is an array of bitmasks that represent various letters and symbols to be displayed by our Spinning LED array. We assign every character 6 different flashes of the array, soThe image below shows how the letter first 
+
 ![image](https://user-images.githubusercontent.com/39937655/146619547-390835c1-8dae-44d9-abd4-b2cbf27592a9.png)
