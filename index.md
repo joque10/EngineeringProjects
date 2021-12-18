@@ -16,13 +16,20 @@ We chose a design of a system that had an electric motor spinning the PCB. Our d
 
 ### System Architecture
 As said earlier, because the motor could no longer spin, we had to adapt our code to have a periodic interrupt in order to let the microcontroller know that it is time to flash the lights. Our system archetecture is as follows.
-![image](https://user-images.githubusercontent.com/39937655/146619044-ea1ac6e5-bf1e-44a2-8b5b-f7cb756a22f6.png)
+![image](https://user-images.githubusercontent.com/39937655/146622184-883a387b-da37-4b66-a7bc-dc8df06357aa.png)
 
 ### Design and Implementation
+Several Graphics showing how we implemented our design.
 
+![image](https://user-images.githubusercontent.com/39937655/146622295-12ceabd5-6fa7-4c6a-bb85-37d3d096883f.png)
 
+![image](https://user-images.githubusercontent.com/39937655/146622342-82ed54ae-1e30-4268-9dd9-81aef6721d40.png)
 
 ### Bitmask Alphabet
 [This](font.h) is a link to our alphabet. In that file, is an array of bitmasks that represent various letters and symbols to be displayed by our Spinning LED array. We assign every character 6 different flashes of the array, so each character requires 6 different bit patterns. The image below shows how each bit pattern is represented with a hexademical number, showing how the hexademical number for the first pattern in the letter 'A' is found.
 
 ![image](https://user-images.githubusercontent.com/39937655/146619547-390835c1-8dae-44d9-abd4-b2cbf27592a9.png)
+
+### Results
+As mentioned, due to our hardware issues and lack of time, we were not able to spin the motor. This device can only display message if either the viewer or their frame of reference in regards to the PCB board is moving (i.e. either the viewer or the board must be moving in the direction of the message to view the message). Below is an image of the board simply flashing, we will work on getting a video properly showing the phonenomenon of a message being displayed by having the camera move in relation to the board.
+![image](https://user-images.githubusercontent.com/39937655/146622619-8db450b5-a5d0-4420-93da-f7a9379ba91d.png)
