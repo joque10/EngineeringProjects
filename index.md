@@ -31,7 +31,7 @@ Several Graphics showing how we implemented our design.
 ![image](https://user-images.githubusercontent.com/39937655/146619547-390835c1-8dae-44d9-abd4-b2cbf27592a9.png)
 
 #### Other Used Coding Files
-[startup file]](startup_rvmdk.S)
+[startup file](startup_rvmdk.S)
 [main body](Spinning_Led.c)
 
 ### Results
